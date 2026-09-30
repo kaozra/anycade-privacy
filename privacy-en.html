@@ -25,7 +25,7 @@
 </head>
 <body>
 <h1>Privacy Policy</h1>
-<p class="meta">App: <strong>Anycade</strong> &middot; Last updated: June 2026 &middot; <a href="index.html">Deutsch</a></p>
+<p class="meta">App: <strong>Anycade</strong> &middot; Last updated: September 30, 2026 &middot; <a href="index.html">Deutsch</a></p>
 
 <p>Anycade is an emulator and launcher app for classic handheld games
 (Game Boy, Game Boy Color, Game Boy Advance and SNES). The app is built around data
@@ -46,15 +46,15 @@ Art.&nbsp;4 No.&nbsp;7 GDPR.</p>
 <h2>2. What data is processed</h2>
 
 <h3>2.1 Locally on your device</h3>
-<p>The following data stays solely on your device and is transmitted neither to
-us nor to third parties:</p>
+<p>Anycade initially processes the following data locally on your device:</p>
 <ul>
   <li>Your game files (ROMs), which you add yourself from your own folders</li>
   <li>App settings, favourites and save states</li>
   <li>Cached cover images</li>
 </ul>
 <p>Access to your ROM folders uses the Android file picker (Storage Access
-Framework). The app does not request any broad storage permission.</p>
+Framework). The app does not request any broad storage permission. Anycade does
+not upload ROM files.</p>
 
 <h3>2.2 Loading cover images (disclosure abroad)</h3>
 <p>Online covers are disabled by default. If you voluntarily enable them after
@@ -78,27 +78,42 @@ data processing carried out by LibRetro; their own privacy practices apply.</p>
 Settings at any time. Without your opt-in, no request is sent to LibRetro and
 Anycade uses its own placeholder graphics instead.</p>
 
-<h3>2.3 Purchases</h3>
+<h3>2.3 Android system backup and manual backups</h3>
+<p>Anycade participates in Android system backup. If device backup is enabled,
+Android may store internal app settings and save files in the private backup of
+the user's Google Account using encrypted transfer, and restore them during app
+reinstallation or device setup. This process is controlled by Android and
+Google; Anycade has no access to the Google Account or its backup contents. ROM
+files in user-selected folders are not included in this backup.</p>
+<p>Users can also explicitly export save files as a ZIP archive to a location of
+their choice or import them from there. Anycade does not itself transmit these
+backups to a server.</p>
+
+<h3>2.4 Purchases</h3>
 <p>If paid features are offered, payment is processed via <strong>Google
 Play</strong>. Payment data is handled by Google; we receive no credit-card or
 bank details. Google's privacy policy applies.</p>
 
-<h3>2.4 No further data collection</h3>
+<h3>2.5 No further data collection</h3>
 <ul>
   <li>No advertising, no tracking, no analytics SDKs, no cookies</li>
   <li>No user accounts and no login (in the current version)</li>
   <li>No crash reports or usage data are sent to us</li>
+  <li>No Anycade cloud sync and no LAN/TV streaming in the public release</li>
 </ul>
 
 <h2>3. App permissions</h2>
 <ul>
-  <li><strong>Internet</strong> – solely to load cover images (see 2.2)</li>
+  <li><strong>Internet</strong> – for Google Play Billing and purchase restoration and, after consent, to load cover images (see 2.2)</li>
 </ul>
 
 <h2>4. Retention period</h2>
-<p>The data listed under 2.1 stays on your device until you delete it yourself or
-uninstall the app. We do not store any data about you. Which log data LibRetro
-keeps when serving images is beyond our knowledge and control.</p>
+<p>Local app data remains on your device until you delete it, clear app data, or
+uninstall the app. Cached covers can be removed by clearing the app cache.
+Manually exported backups remain at the selected location until you delete them.
+Retention and deletion of Android system backups are governed by the settings
+and terms of the Google Account. We do not store any data about you. Which log
+data LibRetro keeps when serving images is beyond our knowledge and control.</p>
 
 <h2>5. Your rights</h2>
 <p>Under the revDSG / GDPR you have, in particular, the rights to access,
@@ -119,8 +134,8 @@ library, settings, app uninstall).</p>
 children.</p>
 
 <h2>7. Changes to this policy</h2>
-<p>As the app evolves (e.g. additional emulators, optional cloud sync or user
-accounts), this privacy policy will be updated accordingly. The version stated
+<p>If app features, integrated services, or data flows change, this privacy
+policy will be updated before the corresponding release. The version stated
 above applies.</p>
 
 <h2>8. Contact</h2>

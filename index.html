@@ -25,7 +25,7 @@
 </head>
 <body>
 <h1>Datenschutzerklärung</h1>
-<p class="meta">App: <strong>Anycade</strong> &middot; Stand: Juni 2026 &middot; <a href="privacy-en.html">English</a></p>
+<p class="meta">App: <strong>Anycade</strong> &middot; Stand: 30. September 2026 &middot; <a href="privacy-en.html">English</a></p>
 
 <p>Anycade ist eine Emulator- und Launcher-App für klassische Handheld-Spiele
 (Game Boy, Game Boy Color, Game Boy Advance und SNES). Die App ist auf Datensparsamkeit
@@ -46,8 +46,7 @@ Art.&nbsp;4 Nr.&nbsp;7 DSGVO.</p>
 <h2>2. Welche Daten verarbeitet werden</h2>
 
 <h3>2.1 Lokal auf deinem Gerät</h3>
-<p>Folgende Daten bleiben ausschliesslich auf deinem Gerät und werden weder an
-uns noch an Dritte übertragen:</p>
+<p>Anycade verarbeitet folgende Daten zunächst lokal auf deinem Gerät:</p>
 <ul>
   <li>Deine Spieledateien (ROMs), die du selbst aus deinen eigenen Ordnern hinzufügst</li>
   <li>App-Einstellungen, Favoriten und Spielstände</li>
@@ -55,7 +54,7 @@ uns noch an Dritte übertragen:</p>
 </ul>
 <p>Der Zugriff auf deine ROM-Ordner erfolgt über die Android-Dateiauswahl
 (Storage Access Framework). Die App fordert dafür keine weitergehende
-Speicher-Berechtigung an.</p>
+Speicher-Berechtigung an. ROM-Dateien werden von Anycade nicht hochgeladen.</p>
 
 <h3>2.2 Laden der Cover-Bilder (Bekanntgabe ins Ausland)</h3>
 <p>Online-Cover sind standardmässig deaktiviert. Wenn du sie nach einem klaren
@@ -80,27 +79,44 @@ Datenschutzpraxis.</p>
 den Einstellungen deaktivieren. Ohne deine Aktivierung findet keine Anfrage an
 LibRetro statt; Anycade verwendet stattdessen eigene Platzhalter-Grafiken.</p>
 
-<h3>2.3 Käufe</h3>
+<h3>2.3 Android-Systembackup und manuelle Backups</h3>
+<p>Anycade nimmt am Android-Systembackup teil. Wenn die Gerätesicherung aktiviert
+ist, kann Android interne App-Einstellungen und Spielstände verschlüsselt in der
+privaten Sicherung des Google-Kontos speichern und bei einer Neuinstallation
+oder Geräteeinrichtung wiederherstellen. Dieser Vorgang wird von Android und
+Google gesteuert; Anycade hat keinen Zugriff auf das Google-Konto oder dessen
+Sicherungsinhalte. ROM-Dateien in selbst gewählten Ordnern sind nicht Bestandteil
+dieser Sicherung.</p>
+<p>Spielstände können ausserdem auf ausdrückliche Nutzeraktion als ZIP-Datei an
+einen selbst gewählten Speicherort exportiert oder von dort importiert werden.
+Anycade überträgt diese Backups nicht selbst an einen Server.</p>
+
+<h3>2.4 Käufe</h3>
 <p>Falls kostenpflichtige Funktionen angeboten werden, erfolgt die
 Zahlungsabwicklung über <strong>Google Play</strong>. Die Zahlungsdaten werden
 von Google verarbeitet; wir erhalten keine Kreditkarten- oder Kontodaten. Es
 gilt die Datenschutzerklärung von Google.</p>
 
-<h3>2.4 Keine weitere Datenerhebung</h3>
+<h3>2.5 Keine weitere Datenerhebung</h3>
 <ul>
   <li>Keine Werbung, kein Tracking, keine Analyse-SDKs, keine Cookies</li>
   <li>Keine Benutzerkonten und kein Login (in der aktuellen Version)</li>
   <li>Es werden keine Absturzberichte oder Nutzungsdaten an uns gesendet</li>
+  <li>Kein Anycade-Cloud-Sync und kein LAN-/TV-Streaming im öffentlichen Release</li>
 </ul>
 
 <h2>3. App-Berechtigungen</h2>
 <ul>
-  <li><strong>Internet</strong> – ausschliesslich zum Laden der Cover-Bilder (siehe 2.2)</li>
+  <li><strong>Internet</strong> – für Google Play Billing und Kaufwiederherstellung sowie nach Einwilligung zum Laden der Cover-Bilder (siehe 2.2)</li>
 </ul>
 
 <h2>4. Speicherdauer</h2>
-<p>Die unter 2.1 genannten Daten bleiben auf deinem Gerät, bis du sie selbst
-löschst oder die App deinstallierst. Wir selbst speichern keine Daten über dich.
+<p>Lokale App-Daten bleiben auf deinem Gerät, bis du sie selbst löschst, die
+App-Daten zurücksetzt oder die App deinstallierst. Zwischengespeicherte Cover
+können durch Leeren des App-Caches entfernt werden. Manuell exportierte Backups
+bleiben am gewählten Speicherort, bis du sie dort löschst. Aufbewahrung und
+Löschung der Android-Systembackups richten sich nach den Einstellungen und
+Bestimmungen des Google-Kontos. Wir selbst speichern keine Daten über dich.
 Welche Protokolldaten LibRetro beim Bildabruf speichert, entzieht sich unserer
 Kenntnis und unserem Einfluss.</p>
 
@@ -123,9 +139,9 @@ löschen kannst (Spiel-Bibliothek, Einstellungen, App-Deinstallation).</p>
 Daten von Kindern.</p>
 
 <h2>7. Änderungen dieser Erklärung</h2>
-<p>Bei Weiterentwicklung der App (z.&nbsp;B. weitere Emulatoren, optionale
-Cloud-Synchronisierung oder Benutzerkonten) wird diese Datenschutzerklärung
-entsprechend angepasst. Massgeblich ist die jeweils oben genannte Fassung.</p>
+<p>Wenn sich Funktionen, eingebundene Dienste oder Datenflüsse der App ändern,
+wird diese Datenschutzerklärung vor der entsprechenden Veröffentlichung
+angepasst. Massgeblich ist die jeweils oben genannte Fassung.</p>
 
 <h2>8. Kontakt</h2>
 <address>
